@@ -9,6 +9,9 @@ public class Main {
         double fallMaintenanceCost = 2101.89;
         System.out.println("Fall maintenance cost: $" + fallMaintenanceCost);
 
+        double winterMaintenanceCost = 4022.02;
+        System.out.println("Winter maintenance cost: $" + winterMaintenanceCost);
+
         double yearlyMaintenanceCost = springMaintenanceCost + summerMaintenanceCost + fallMaintenanceCost + winterMaintenanceCost;
         System.out.println("Yearly maintenance cost: $" + yearlyMaintenanceCost);
     }
